@@ -1286,7 +1286,15 @@ main {
             animation-name: fadeInLeft;
     -webkit-animation-delay: 0ms;
             animation-delay: 0ms;
-    margin-bottom: 0.15em; }
+    margin-bottom: 0.15em;
+    -webkit-hyphens: none;
+       -moz-hyphens: none;
+        -ms-hyphens: none;
+            hyphens: none; }
+    @media (max-width: 767px) {
+      main div h1 {
+        font-size: 340% !important;
+        line-height: 0.9em; } }
   main div h2 {
     -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
@@ -1297,7 +1305,15 @@ main {
     -webkit-animation-delay: 300ms;
             animation-delay: 300ms;
     line-height: 1em;
-    font-weight: 300 !important; }
+    font-weight: 300 !important;
+    -webkit-hyphens: none;
+       -moz-hyphens: none;
+        -ms-hyphens: none;
+            hyphens: none; }
+    @media (max-width: 767px) {
+      main div h2 {
+        font-size: 160% !important;
+        line-height: 1.2em; } }
 
 footer {
   -webkit-animation-fill-mode: both;
@@ -1314,6 +1330,9 @@ footer {
   color: #e3e3e3; }
   footer a {
     opacity: 1; }
+  @media (max-width: 959px) {
+    footer {
+      font-size: 90% !important; } }
 
 /* Print style by West */
 /*! Print Style by West */

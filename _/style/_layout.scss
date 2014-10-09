@@ -2,6 +2,9 @@ main {
 	height: 90vh;
 	@include wrapper();
 	@include middle();
+	position: absolute;
+	left: 0;
+	margin: fnGetSpacing(200);
 	div {
 		h1 {
 			line-height: 0.85em;

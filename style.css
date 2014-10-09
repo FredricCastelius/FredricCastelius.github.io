@@ -1275,7 +1275,10 @@ main {
   -webkit-align-items: center;
      -moz-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  position: absolute;
+  left: 0;
+  margin: 3em; }
   main div h1 {
     line-height: 0.85em;
     -webkit-animation-fill-mode: both;

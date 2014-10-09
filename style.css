@@ -1293,11 +1293,11 @@ main {
     -webkit-hyphens: none;
        -moz-hyphens: none;
         -ms-hyphens: none;
-            hyphens: none; }
-    @media (max-width: 767px) {
-      main div h1 {
-        font-size: 340% !important;
-        line-height: 0.9em; } }
+            hyphens: none;
+    /*@include breakpoint(phone) {
+    	font-size: 340%!important;
+    	line-height: 0.9em;
+    }*/ }
   main div h2 {
     -webkit-animation-fill-mode: both;
             animation-fill-mode: both;
@@ -1312,11 +1312,11 @@ main {
     -webkit-hyphens: none;
        -moz-hyphens: none;
         -ms-hyphens: none;
-            hyphens: none; }
-    @media (max-width: 767px) {
-      main div h2 {
-        font-size: 160% !important;
-        line-height: 1.2em; } }
+            hyphens: none;
+    /*@include breakpoint(phone) {
+    	font-size: 160%!important;
+    	line-height: 1.2em;
+    }*/ }
 
 footer {
   -webkit-animation-fill-mode: both;

@@ -13,10 +13,10 @@ main {
 			animation-delay: 0ms;
 			margin-bottom: fnGetSpacing(10);
 			hyphens: none;
-			@include breakpoint(phone) {
+			/*@include breakpoint(phone) {
 				font-size: 340%!important;
 				line-height: 0.9em;
-			}
+			}*/
 		}
 		h2 {
 			@include animate();
@@ -25,10 +25,10 @@ main {
 			line-height: 1em;
 			font-weight: 300!important;
 			hyphens: none;
-			@include breakpoint(phone) {
+			/*@include breakpoint(phone) {
 				font-size: 160%!important;
 				line-height: 1.2em;
-			}
+			}*/
 		}
 	}
 }

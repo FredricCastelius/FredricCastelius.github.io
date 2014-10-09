@@ -793,7 +793,7 @@ html {
   /* !responsive */ }
   @media (max-width: 767px) {
     html {
-      font-size: 120%; } }
+      font-size: 80%; } }
   @media (min-width: 768px) {
     html {
       font-size: 110%; } }

@@ -200,7 +200,11 @@ main#wrong-browser {
 }
 
 #wrong-browser, #chrome-user {
-  display: none;
+  display: none!important;
+}
+
+main#main {
+  display: block!important;
 }
 
 /*

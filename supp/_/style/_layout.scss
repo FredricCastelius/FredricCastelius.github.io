@@ -199,15 +199,15 @@ main#wrong-browser {
   }
 }
 
-#wrong-browser, #chrome-user {
+/*#wrong-browser, #chrome-user {
   display: none!important;
 }
 
 main#main {
   display: block!important;
-}
+}*/
 
-/*
+
 
 #chrome-user {
   position: absolute;
@@ -222,7 +222,30 @@ main#main {
   display: block!important;
 }
 
-*/
+main#main {
+}
+
+footer {
+  float: left;
+  width: 100%;
+  text-align: center;
+  clear: both;
+  margin: fnGetSpacing(500) 0 fnGetSpacing(100) 0;
+  font-size: 90%;
+  div {
+    background: #000;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: auto;
+    width: 300px;
+    padding: fnGetSpacing(100) fnGetSpacing(40) fnGetSpacing(100) fnGetSpacing(40);
+  }
+  a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2)!important;
+    &:hover {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.8)!important;
+    }
+  }
+}
 
 
  
